@@ -41,6 +41,7 @@ public class FileCopyBuffered {
             endTime = System.nanoTime();
             System.out.println("Unbuffered Streams Copy Time: " + (endTime - startTime) / 1_000_000 + " ms");
         } catch (IOException e) {
+            // Print exception if file not found
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
