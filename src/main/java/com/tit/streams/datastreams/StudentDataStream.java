@@ -8,13 +8,13 @@ public class StudentDataStream {
 
         // Writing data to file
         try (DataOutputStream dos = new DataOutputStream(new FileOutputStream(filePath))) {
-            dos.writeInt(101);
-            dos.writeUTF("Alice");
-            dos.writeDouble(3.8);
+            dos.writeInt(7);
+            dos.writeUTF("Aditya");
+            dos.writeDouble(8.8);
 
-            dos.writeInt(102);
-            dos.writeUTF("Bob");
-            dos.writeDouble(3.5);
+            dos.writeInt(1);
+            dos.writeUTF("Aadarsh");
+            dos.writeDouble(8.5);
 
             System.out.println("Student data written to file successfully.");
         } catch (IOException e) {
@@ -36,4 +36,6 @@ public class StudentDataStream {
         }
     }
 }
+
+
 
