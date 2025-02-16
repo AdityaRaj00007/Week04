@@ -1,6 +1,7 @@
 package com.tit.annotationsandreflection.annotation.intermediatelevel.maxlength;
 
 public class Main {
+    // Main Method
     public static void main(String[] args) {
         try {
             User user1 = new User("shortname");
